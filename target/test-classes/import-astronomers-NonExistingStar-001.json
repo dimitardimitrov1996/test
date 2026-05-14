@@ -1,0 +1,18 @@
+[
+  {
+    "averageObservationHours": 22836.19,
+    "birthday": "1980-01-16",
+    "firstName": "Helena",
+    "lastName": "Bishop",
+    "salary": 294111.44,
+    "observingStarId": 80
+  },
+  {
+    "averageObservationHours": 31049.67,
+    "birthday": "1966-05-05",
+    "firstName": "Dorian",
+    "lastName": "Sawyer",
+    "salary": 161438.11,
+    "observingStarId": 101
+  }
+]

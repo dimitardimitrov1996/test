@@ -1,0 +1,186 @@
+[
+  {
+    "averageObservationHours": 176858.79,
+    "birthday": "1989-01-01",
+    "firstName": "Drake",
+    "lastName": "Hawthorne",
+    "salary": 207615.71,
+    "observingStarId": 50
+  },
+  {
+    "averageObservationHours": 300.79,
+    "birthday": "1989-01-01",
+    "firstName": "Drake",
+    "lastName": "Hawthorne",
+    "salary": 207615.71,
+    "observingStarId": 50
+  },
+  {
+    "averageObservationHours": 176858.79,
+    "birthday": "1989-01-01",
+    "firstName": "Drake",
+    "lastName": "Hawthorne",
+    "salary": 207615.71,
+    "observingStarId": 50
+  },
+  {
+    "averageObservationHours": 55537.43,
+    "birthday": "1966-11-03",
+    "firstName": "Elena",
+    "lastName": "Sullivan",
+    "salary": 98319.24,
+    "observingStarId": 91
+  },
+  {
+    "averageObservationHours": 105443.87,
+    "birthday": "1954-09-02",
+    "firstName": "Cassandra",
+    "lastName": "Bellamy",
+    "salary": 1499.52,
+    "observingStarId": 28
+  },
+  {
+    "averageObservationHours": 72795.68,
+    "birthday": "1993-08-14",
+    "firstName": "Victor",
+    "lastName": "Adams",
+    "salary": 316456.16,
+    "observingStarId": 42
+  },
+  {
+    "averageObservationHours": 105443.87,
+    "birthday": "1954-09-02",
+    "firstName": "Cassandra",
+    "lastName": "Bellamy",
+    "salary": 111076.52,
+    "observingStarId": 28
+  },
+  {
+    "averageObservationHours": 106936.42,
+    "birthday": "1959-06-03",
+    "firstName": "Nathaniel",
+    "lastName": "Reynolds",
+    "salary": 101754.41,
+    "observingStarId": 16
+  },
+  {
+    "averageObservationHours": 241603.8,
+    "birthday": "1958-09-04",
+    "firstName": "Serena",
+    "lastName": "Chandler",
+    "salary": 98328.09,
+    "observingStarId": 16
+  },
+  {
+    "averageObservationHours": 153446.68,
+    "birthday": "1951-03-10",
+    "firstName": "Gabriel",
+    "lastName": "Fletcher",
+    "salary": 62358.41,
+    "observingStarId": 54
+  },
+  {
+    "averageObservationHours": 244764.96,
+    "birthday": "1989-05-24",
+    "firstName": "Lorelei",
+    "lastName": "Blackwell",
+    "salary": 153955.54,
+    "observingStarId": 36
+  },
+  {
+    "averageObservationHours": 183403.7,
+    "birthday": "1983-04-12",
+    "firstName": "Sebastian",
+    "lastName": "Maxwell",
+    "salary": 54559.97,
+    "observingStarId": 23
+  },
+  {
+    "averageObservationHours": 150617.05,
+    "birthday": "1980-07-26",
+    "firstName": "Aurora",
+    "lastName": "Hamilton",
+    "salary": 211196.44,
+    "observingStarId": 74
+  },
+  {
+    "averageObservationHours": 16667.34,
+    "birthday": "1960-01-02",
+    "firstName": "Julian",
+    "lastName": "Whitaker",
+    "salary": 66661.49,
+    "observingStarId": 64
+  },
+  {
+    "averageObservationHours": 121317.97,
+    "birthday": "1976-04-03",
+    "firstName": "Genevieve",
+    "lastName": "Archer",
+    "salary": 67686.33,
+    "observingStarId": 18
+  },
+  {
+    "averageObservationHours": 148528.89,
+    "birthday": "1958-04-26",
+    "firstName": "Elias",
+    "lastName": "Donovan",
+    "salary": 288559.38,
+    "observingStarId": 42
+  },
+  {
+    "averageObservationHours": 55643.78,
+    "birthday": "1986-07-15",
+    "firstName": "Isadora",
+    "lastName": "Fitzgerald",
+    "salary": 334024.69,
+    "observingStarId": 64
+  },
+  {
+    "averageObservationHours": 209054.25,
+    "birthday": "1988-05-03",
+    "firstName": "Lysander",
+    "lastName": "Spencer",
+    "salary": 108576.5,
+    "observingStarId": 78
+  },
+  {
+    "averageObservationHours": 34635.09,
+    "birthday": "1995-08-14",
+    "firstName": "Astrid",
+    "lastName": "Webster",
+    "salary": 104422.67,
+    "observingStarId": 87
+  },
+  {
+    "averageObservationHours": 83542.93,
+    "birthday": "1980-12-10",
+    "firstName": "Leander",
+    "lastName": "Valentine",
+    "salary": 377608.72,
+    "observingStarId": 91
+  },
+  {
+    "averageObservationHours": 22836.19,
+    "birthday": "1980-01-16",
+    "firstName": "Helena",
+    "lastName": "Bishop",
+    "salary": 294111.44,
+    "observingStarId": 80
+  },
+  {
+    "averageObservationHours": 31049.67,
+    "birthday": "1966-05-05",
+    "firstName": "Dorian",
+    "lastName": "Sawyer",
+    "salary": 161438.11,
+    "observingStarId": 77
+  },
+  {
+    "averageObservationHours": 20537.9,
+    "birthday": "1957-09-04",
+    "firstName": "Vivienne",
+    "lastName": "Griffin",
+    "salary": 252195.46,
+    "observingStarId": 24
+  }
+]

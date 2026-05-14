@@ -1,0 +1,34 @@
+[
+  {
+    "averageObservationHours": 209054.25,
+    "birthday": "1988-05-03",
+    "firstName": "Astrid",
+    "lastName": "Spencer",
+    "salary": 108576.5,
+    "observingStarId": 78
+  },
+  {
+    "averageObservationHours": 209054.25,
+    "birthday": "1988-05-03",
+    "firstName": "Wesley",
+    "lastName": "Spencer",
+    "salary": 108576.5,
+    "observingStarId": 78
+  },
+  {
+    "averageObservationHours": 34635.09,
+    "birthday": "1995-08-14",
+    "firstName": "Astrid",
+    "lastName": "Wesley",
+    "salary": 104422.67,
+    "observingStarId": 87
+  },
+  {
+    "averageObservationHours": 83542.93,
+    "birthday": "1980-12-10",
+    "firstName": "Astrid",
+    "lastName": "Spencer",
+    "salary": 377608.72,
+    "observingStarId": 91
+  }
+]

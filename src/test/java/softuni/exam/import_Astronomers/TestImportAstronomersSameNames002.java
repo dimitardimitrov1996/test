@@ -1,0 +1,102 @@
+package softuni.exam.import_Astronomers;
+//TestImportAstronomersSameNames002
+
+import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.jdbc.Sql;
+import softuni.exam.service.impl.AstronomerServiceImpl;
+
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.nio.file.Path;
+
+@SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.NONE)
+public class TestImportAstronomersSameNames002 {
+
+    @Autowired
+    private AstronomerServiceImpl astronomerService;
+
+    @Sql({"/constellation-test-imports.sql", "/stars-test-imports.sql"})
+    @Test
+    void importAstronomersValidateWithSameNames002() throws IOException {
+        rewriteFileForTest();
+
+        String expected = "Successfully imported astronomer Astrid Spencer - 209054.25\n" +
+                "Successfully imported astronomer Wesley Spencer - 209054.25\n" +
+                "Successfully imported astronomer Astrid Wesley - 34635.09\n" +
+                "Invalid astronomer";
+        String[] expectedSplit = expected.split("\\r\\n?|\\n");
+
+        String actual = astronomerService.importAstronomers();
+        String[] actualSplit = actual.split("\\r\\n?|\\n");
+
+        returnOriginalValue();
+
+        Assertions.assertArrayEquals(expectedSplit, actualSplit);
+    }
+
+    private void rewriteFileForTest() {
+        File originalJsonFile = getOriginalFile();
+
+        String testJSON = "[\n" +
+                "  {\n" +
+                "    \"averageObservationHours\": 209054.25,\n" +
+                "    \"birthday\": \"1988-05-03\",\n" +
+                "    \"firstName\": \"Astrid\",\n" +
+                "    \"lastName\": \"Spencer\",\n" +
+                "    \"salary\": 108576.5,\n" +
+                "    \"observingStarId\": 78\n" +
+                "  },\n" +
+                "  {\n" +
+                "    \"averageObservationHours\": 209054.25,\n" +
+                "    \"birthday\": \"1988-05-03\",\n" +
+                "    \"firstName\": \"Wesley\",\n" +
+                "    \"lastName\": \"Spencer\",\n" +
+                "    \"salary\": 108576.5,\n" +
+                "    \"observingStarId\": 78\n" +
+                "  },\n" +
+                "  {\n" +
+                "    \"averageObservationHours\": 34635.09,\n" +
+                "    \"birthday\": \"1995-08-14\",\n" +
+                "    \"firstName\": \"Astrid\",\n" +
+                "    \"lastName\": \"Wesley\",\n" +
+                "    \"salary\": 104422.67,\n" +
+                "    \"observingStarId\": 87\n" +
+                "  },\n" +
+                "  {\n" +
+                "    \"averageObservationHours\": 83542.93,\n" +
+                "    \"birthday\": \"1980-12-10\",\n" +
+                "    \"firstName\": \"Astrid\",\n" +
+                "    \"lastName\": \"Spencer\",\n" +
+                "    \"salary\": 377608.72,\n" +
+                "    \"observingStarId\": 91\n" +
+                "  }\n" +
+                "]";
+        try {
+            FileWriter f2 = new FileWriter(originalJsonFile, false);
+            f2.write(testJSON);
+            f2.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private File getOriginalFile() {
+        return new File("src/main/resources/files/json/astronomers.json");
+    }
+
+    private void returnOriginalValue() {
+        try {
+            FileWriter f2 = new FileWriter(getOriginalFile(), false);
+            String testOriginalFile = Files.readString(Path.of("src/test/resources/original-files/astronomers.json"));
+            f2.write(testOriginalFile);
+            f2.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+}
