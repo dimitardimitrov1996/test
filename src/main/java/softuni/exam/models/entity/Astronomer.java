@@ -30,6 +30,12 @@ public class Astronomer {
     @JoinColumn(name = "observing_star_id")
     private Star star;
 
+    /**
+     * Controller to handle all things astronomer related
+     * @return all astronomers related data
+     */
+
+
     public long getId() {
         return id;
     }
